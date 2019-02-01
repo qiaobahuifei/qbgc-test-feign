@@ -1,0 +1,15 @@
+server:
+  port: 7001
+
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://gaochao:8810/eureka
+
+spring:
+  application:
+    name: qbgc-test-feign
+
+feign:
+  hystrix:
+    enabled: true
